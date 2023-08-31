@@ -6,6 +6,8 @@
     <title>Landon Smith Homework Page</title>
 </head>
 <body>
-    <h1>Landon Smith's Homework Page</h1>
+    <?php
+        echo "Hello, this is some text added using the echo statement!";
+    ?>
 </body>
 </html>
