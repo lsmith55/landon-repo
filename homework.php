@@ -7,7 +7,9 @@
 </head>
 <body>
 <?php
-        print 'Hello, this is some text added using the print statement!';
+        echo "<h1>Welcome to my Homework Page!</h1>";
+        echo "<h3>Here are some of my links to past projects.</h3>";
+        echo "<p>Click <a href='http://localhost/wdv341/landon-repo/terms.html'>here</a> to visit the terms page.</p>";
     ?>
 </body>
 </html>
