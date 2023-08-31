@@ -6,8 +6,8 @@
     <title>Landon Smith Homework Page</title>
 </head>
 <body>
-    <?php
-        echo "Hello, this is some text added using the echo statement!";
+<?php
+        print 'Hello, this is some text added using the print statement!';
     ?>
 </body>
 </html>
