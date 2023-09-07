@@ -6,12 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Assignment Name: yourName</h1>
-    <h2>My Name</h2>
-    <?php
+<?php
     $yourName = "Landon";
+    ?>
 
-    echo "<h2>$yourName</h2>";
+    <h1>Assignment Name: <?php echo $yourName; ?></h1>
+    <h2><?php echo $yourName; ?></h2>
+    <?php 
 
     $number1 = 10;
     $number2 = 5;
