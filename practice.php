@@ -1,3 +1,8 @@
+<?php
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +12,7 @@
 </head>
 <body>
     <h1>WDV341 Intro PHP</h1>
-    <H2>PHP Basics and examples</h2>
-    <?php
-        echo "<h3> This is an ouput of PHP on server</h3>;"
-    ?>
+    <H2>PHP FUNCTIONS</h2>
+    
 </body>
 </html>
