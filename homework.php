@@ -43,6 +43,7 @@
     echo "<h4>Click <a href='https://github.com/lsmith55/landon-repo/blob/main/homework.php'>here</a> to visit my Git Repo.</p>";
     echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/terms.html'>here</a> to visit the Terms assignment.</p>";
     echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/phpbasics.php'>here</a> to visit PHP Basics Assignment 1.</p>";
+    echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/4.1phpfunctions.php'>here</a> to visit 4.1 PHP Functions Assingment.</p>";
     ?>
 </body>
 </html>
