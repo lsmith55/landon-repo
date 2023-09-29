@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>WDV101 Intro HTML and CSS</title>
+    <style>
+        body {
+          background-color: blanchedalmond;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          text-align: center;
+         
+        }
+        form {
+            width: 600px;
+            height: 600px;
+            margin: auto;
+            padding-top: 10px;
+            background-color: rgb(255, 243, 196);
+            padding-left: 20px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            line-height: 20px;
+        }
+
+        form legend {
+            font-size: larger;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>WDV101 Intro HTML and CSS</h1>
+    <h2>UNIT 5 - Lesson 2 Server Side Forms</h2>
+    <h4>This is an example input form that will demonstrate how a form connects to a server-side process.</h4>
+    <form id="form1" name="form1" method="post" action="formHandler.php">
+        <legend>Example Form</legend>
+
+        <p>
+            <label for="first_name">First Name:</label>
+            <input type="text" name="first_name" id="first_name" required />
+        </p>
+
+        <p>
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" id="last_name" required />
+        </p>
+
+        <p>
+            <label for="school_name">School Name:</label>
+            <input type="text" name="school_name" id="school_name" required />
+        </p>
+
+        <p>
+            <label for="customer_email">Customer Email:</label>
+            <input type="email" name="customer_email" id="customer_email" required />
+        </p>
+
+        <p>
+            <label>Academic Standing:</label><br>
+            <input type="radio" id="high_school" name="academic_standing" value="High School" required />
+            <label for="high_school">High School</label><br>
+            <input type="radio" id="freshman" name="academic_standing" value="Freshman" />
+            <label for="freshman">Freshman</label><br>
+            <input type="radio" id="sophomore" name="academic_standing" value="Sophomore" />
+            <label for="sophomore">Sophomore</label><br><br>
+        </p>
+
+        <p>
+            <label for="selected_major">Major:</label>
+            <select id="selected_major" name="selected_major" required>
+                <option value="Default option">Default option</option>
+                <option value="CIS">Computer Information Systems</option>
+                <option value="graphic design">Graphic Design</option>
+                <option value="web development">Web Development</option>
+            </select><br><br>
+        </p>
+
+        <p>
+            <label>Contact Options:</label><br>
+            <input type="checkbox" id="contact_info" name="contact_options[]" value="Please contact me with program information" />
+            <label for="contact_info">Please contact me with program information</label><br>
+            <input type="checkbox" id="advisor_contact" name="contact_options[]" value="I would like to contact a program advisor" />
+            <label for="advisor_contact">I would like to contact a program advisor</label><br><br>
+        </p>
+
+        <p>
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments"></textarea><br><br>
+        </p>
+
+        <p>
+            <input type="submit" name="button" id="button" value="Submit" />
+            <input type="reset" name="button2" id="button2" value="Reset" />
+        </p>
+
+    </form>
+    <p>&nbsp;</p>
+</body>
+
+</html>
+
