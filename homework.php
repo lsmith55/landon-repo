@@ -44,7 +44,9 @@
     echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/terms.html'>here</a> to visit the Terms assignment.</p>";
     echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/phpbasics.php'>here</a> to visit PHP Basics Assignment 1.</p>";
     echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/4.1phpfunctions.php'>here</a> to visit 4.1 PHP Functions Assingment.</p>";
-    echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/inputForm.html'>here</a> to visit 5-1 HTML Form Processor.</p>"
+    echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/inputForm.html'>here</a> to visit 5-1 HTML Form Processor.</p>";
+    echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/selectOneEvent.php'>here</a> to visit 7-2 SelectOneEvent.</p>";
+    echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/selectEvents.php'>here</a> to visit 7-1 SelectEvents.</p>";
     ?>
 </body>
 </html>
