@@ -5,17 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landon Smith Homework Page</title>
     <style>
+        
+        body, h1, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
+            text-align: center;
             margin: 0;
             padding: 0;
-            text-align: center;
+            background: radial-gradient(circle at center, #6B227E , #40154C);
+
+
+        }
+
+        
+        header {
+            background: radial-gradient(circle at center, #6B227E , #40154C);
+            color: white;
+            padding: 20px;
+            
+        
+            
         }
 
         h1 {
-            color: #333;
+            font-size: 30px;
             margin-top: 20px;
+            
+        }
+
+
+        
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 10px 10px 3px 0px #000000;
+            border-radius: 35px;
+            
+            
         }
 
         h3 {
@@ -24,29 +57,42 @@
 
         p {
             color: #777;
+            line-height: 2.5;
         }
 
         a {
-            text-decoration: none;
             color: #007BFF;
+            transition: color 0.3s;
+            
         }
 
         a:hover {
+            color: #0056b3;
             text-decoration: underline;
+            transition: color 0.3s;
+        }
+
+        b {
+            
+            line-height: 2.5;
+
         }
     </style>
 </head>
 <body>
-    <?php
-    echo "<h1>Welcome to my Homework Page!</h1>";
-    echo "<h3>Here are some of my links to past projects.</h3>";
-    echo "<h4>Click <a href='https://github.com/lsmith55/landon-repo/blob/main/homework.php'>here</a> to visit my Git Repo.</p>";
-    echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/terms.html'>here</a> to visit the Terms assignment.</p>";
-    echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/phpbasics.php'>here</a> to visit PHP Basics Assignment 1.</p>";
-    echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/4.1phpfunctions.php'>here</a> to visit 4.1 PHP Functions Assingment.</p>";
-    echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/inputForm.html'>here</a> to visit 5-1 HTML Form Processor.</p>";
-    echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/selectOneEvent.php'>here</a> to visit 7-2 SelectOneEvent.</p>";
-    echo "<p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/selectEvents.php'>here</a> to visit 7-1 SelectEvents.</p>";
-    ?>
+    <header>
+        <h1>Landon Smith's Homework Page</h1>
+    </header>
+    
+    <div class="content">
+        <h3>Here are some of my links to past projects:</h3>
+        <b>Click <a href='https://github.com/lsmith55/landon-repo/blob/main/homework.php'>here</a> to visit my Git Repo.</b>
+        <p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/terms.html'>here</a> to visit the Terms assignment.</p>
+        <p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/phpbasics.php'>here</a> to visit PHP Basics Assignment 1.</p>
+        <p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/4.1phpfunctions.php'>here</a> to visit 4.1 PHP Functions Assingment.</p>
+        <p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/inputForm.html'>here</a> to visit 5-1 HTML Form Processor.</p>
+        <p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/selectOneEvent.php'>here</a> to visit 7-2 SelectOneEvent.</p>
+        <p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/selectEvents.php'>here</a> to visit 7-1 SelectEvents.</p>
+    </div>
 </body>
 </html>
