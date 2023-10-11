@@ -93,6 +93,7 @@
         <p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/inputForm.html'>here</a> to visit 5-1 HTML Form Processor.</p>
         <p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/2selectEvents.php'>here</a> to visit 7-1 selectEvents.</p>
         <p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/2selectOneEvent.php'>here</a> to visit 7-2 SelectOneEvent.</p>
+        <p>Click <a href='http://landonsmith.org/wdv341/wdv341/landon-repo/retail-products-web.php'>here</a> to visit 8-1 Retail Products Page.</p>
     </div>
 </body>
 </html>

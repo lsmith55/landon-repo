@@ -1,5 +1,5 @@
 <?php
-include 'dbConnect.php';
+include 'dbConnect2.php';
 
 $eventNumber = 1;  //replace with event number to test
 
