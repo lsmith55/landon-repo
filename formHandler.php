@@ -23,47 +23,31 @@
 </head>
 
 <body>
-    <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (!empty($_POST["honeypot"])) {
+        echo "<p>Form submission is invalid.</p>";
+    } else {
         $firstName = $_POST["first_name"];
         $lastName = $_POST["last_name"];
         $schoolName = $_POST["school_name"];
         $customerEmail = $_POST["customer_email"];
         $academicStanding = $_POST["academic_standing"];
         $selectedMajor = $_POST["selected_major"];
-        $contactOptions = $_POST["contact_options"];
+        $contactOptions = isset($_POST["contact_options"]) ? $_POST["contact_options"] : [];
         $comments = $_POST["comments"];
 
         echo "<div class='confirmation'>";
-        echo "<p>Dear $firstName,</p>";
-        echo "<p>Thank you for your interest in DMACC.</p>";
-        echo "<p>We have you listed as an academic standing starting this fall: $academicStanding.</p>";
-        echo "<p>You have declared $selectedMajor as your major.</p>";
+        echo "<p>Thank you $firstName $lastName</p>";
+        echo "<p>A signup confirmation has been sent to $customerEmail. Thank you for your support!</p>";
 
-        echo "<p>Based upon your responses, we will provide the following information in our confirmation email to you at $customerEmail:</p>";
-
-        if (!empty($contactOptions)) {
-            echo "<ul>";
-            foreach ($contactOptions as $option) {
-                echo "<li>$option</li>";
-            }
-            echo "</ul>";
-        } else {
-            echo "<p>No contact options selected.</p>";
-        }
-
-        if (!empty($comments)) {
-            echo "<p>You have shared the following comments which we will review:</p>";
-            echo "<p>$comments</p>";
-        } else {
-            echo "<p>No comments provided.</p>";
-        }
+        // Additional processing logic can be added here if needed.
 
         echo "</div>";
-    } else {
-        echo "<p>Form submission is invalid.</p>";
     }
-    ?>
+} else {
+    echo "<p>Form submission is invalid.</p>";
+}
+?>
 </body>
 </html>
-

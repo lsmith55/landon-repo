@@ -5,10 +5,9 @@
     <title>WDV101 Intro HTML and CSS</title>
     <style>
         body {
-          background-color: blanchedalmond;
-          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-          text-align: center;
-         
+            background-color: blanchedalmond;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
         }
         form {
             width: 600px;
@@ -22,12 +21,10 @@
             text-align: center;
             line-height: 20px;
         }
-
         form legend {
             font-size: larger;
             text-align: center;
         }
-        
     </style>
 </head>
 
@@ -35,7 +32,12 @@
     <h1>WDV101 Intro HTML and CSS</h1>
     <h2>UNIT 5 - Lesson 2 Server Side Forms</h2>
     <h4>This is an example input form that will demonstrate how a form connects to a server-side process.</h4>
+
     <form id="form1" name="form1" method="post" action="formHandler.php">
+
+        <!-- Honeypot field -->
+        <input type="text" name="honeypot" style="display: none;">
+
         <legend>Example Form</legend>
 
         <p>
