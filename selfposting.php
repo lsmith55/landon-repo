@@ -13,7 +13,7 @@ if(isset($_POST['submit'])) {
     $inEventsDate = $_POST['eventsdate'];
     $inEventsTime = $_POST['eventstime'];
 
-    require 'dbConnect.php'; // Replace with your database connection code
+    require 'dbConnect.php'; // Database connection code
 
     try {
         // PDO connection
