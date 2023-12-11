@@ -17,6 +17,6 @@ if (isset($_GET['db_connection'])) {
 }
 
 
-header("Location: signon.php");  
+header("Location: login.php");  
 exit();
 ?>
